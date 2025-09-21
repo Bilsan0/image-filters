@@ -2,6 +2,7 @@
 import cv2 as cv
 
 img = cv.imread('photos/photo1.jpg')
+# Replace 'photos/photo1.jpg' with the path to your own image
 
 print("Available filters:")
 print("1 - Gray")
@@ -30,3 +31,4 @@ if "3" in choices:
 cv.imshow("Filtered Image", result)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
