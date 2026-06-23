@@ -1,2 +1,46 @@
-# image-filters
-This is a simple Computer Vision project built with Python and OpenCV. The goal is to demonstrate the use of common image filters and give the user the option to apply them interactively.
+# Image Filters 🖼️
+
+A simple Computer Vision project built with Python and OpenCV.  
+The goal is to apply common image filters interactively through the terminal.
+
+---
+
+## 🔍 Features
+- Grayscale filter
+- Blur filter
+- Edge detection (Canny)
+- The user can choose which filter to apply
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- OpenCV
+- NumPy
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   git clone https://github.com/Bilsan0/image-filters.git
+
+2. Install dependencies:
+   pip install opencv-python numpy
+
+3. Run the project:
+   python "imge filter.py"
+
+---
+
+## 📚 What I Learned
+- How to read and display images using OpenCV
+- How to apply basic image filters
+- How to build a simple interactive terminal interface
+
+---
+
+## 🔮 Future Improvements
+- Add more filters (sharpening, brightness adjustment)
+- Build a graphical user interface (GUI)
+- Support video input
