@@ -9,6 +9,7 @@ The goal is to apply common image filters interactively through the terminal.
 - Grayscale filter
 - Blur filter
 - Edge detection (Canny)
+- Option to save the filtered result to a file
 - The user can choose which filter to apply
 
 ---
@@ -29,7 +30,7 @@ The goal is to apply common image filters interactively through the terminal.
    pip install opencv-python numpy
 
 3. Run the project:
-   python "imge filter.py"
+   python image_filter.py
 
 ---
 
